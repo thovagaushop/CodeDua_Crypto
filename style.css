@@ -1,0 +1,97 @@
+body {
+    background-color: #f5f8fb !important;
+}
+
+/* ------------------------------------------------------------- */
+/* Navv */
+.nav-link {
+    color: #7C99B9 !important;
+    width: 80px;
+    font-family: Sans-Serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.navbar li a {
+    cursor: pointer;
+}
+
+.navbar li a:hover {
+    color: #1B6DC1 !important
+}
+
+.navbar-nav li .active { 
+    font-weight: bold !important;
+    color: #1B6DC1 !important
+}
+
+
+/* ------------------------------------------------------------- */
+/* Main Content */
+.container {
+    text-align: center !important
+}
+
+.container .body-container {
+    border-radius: 30px;
+    text-align: center;
+    width: 436px;
+    height: auto;
+    background-color: white;
+}
+
+/* ------------------------------Header Content------------------------ */
+.content-header {
+    padding: 30px 10px 0px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content-header .content-header-text {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.content-header-icon {
+    padding-top: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.content-header-icon div {
+    width: 48px;
+    height: 48px;
+}
+.content-header-icon div span {
+    color: #1B6DC1 !important;
+}
+.content-header-icon div span:hover {
+    color: #7C99B9 !important;
+}
+
+/* ------------------------------Body Content------------------------ */
+.content-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-body .tranfer-from {
+    width: 80%;
+    background-color: #f5f8fb;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-body .tranfer-to {
+    background-color: #f5f8fb;
+    width: 80%;
+}
+
+.content-body div .tranfer-label {
+    font-weight: bold;
+}
+
