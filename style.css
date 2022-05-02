@@ -1,5 +1,6 @@
 body {
     background-color: #f5f8fb !important;
+    font-family: sans-serif;
 }
 
 /* ------------------------------------------------------------- */
@@ -76,22 +77,43 @@ body {
 .content-body {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
 .content-body .tranfer-from {
+    border-radius: 20px;
     width: 80%;
     background-color: #f5f8fb;
     display: flex;
     flex-direction: column;
+    align-items: start;
 }
 
 .content-body .tranfer-to {
+    border-radius: 20px;
     background-color: #f5f8fb;
     width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
 }
 
 .content-body div .tranfer-label {
-    font-weight: bold;
+    /* font-weight: bold; */
+    font-size: 14px;
+    padding: 10px;
 }
+
+.content-body div div input {
+    margin: 10px;
+    border-style: none;
+    background-color: #f5f8fb;
+}
+
+.content-body div div input:focus {
+    /* font-weight: bold; */
+    outline: none;
+}
+
 
