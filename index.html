@@ -28,7 +28,7 @@
                         <a href="" class="nav-link active">Swap</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">Pool</a>
+                        <a href="poll.html" class="nav-link">Pool</a>
                     </li>
                     <li class="nav-item">
                         <a href="" class="nav-link">Farm</a>
@@ -37,12 +37,23 @@
                         <a href="" class="nav-link">IDO</a>
                     </li>
                 </ul>
+
+                <ul class="navbar-nav">
+                    <div class="nav-item nav-plus">
+                        <img src="images/astr.jpg" alt="">
+                        <div class="money">$0.147</div>
+                    </div>
+                    &nbsp;&nbsp;
+                    <div class="nav-item connect">
+                        Connect
+                    </div>
+                </ul>
             </div>
         </div>
     </nav>
 
     <!-- Main-content -->
-    <div class="container row">
+    <div class="container">
         <div class="body-container mx-auto">
             <!-- Content - Header -->
             <div class="content-header">
@@ -55,24 +66,42 @@
             <hr>
             <!-- Content-body -->
             <div class="content-body">
-                <div class="tranfer-from">
+
+                <!-- Tranfer From -->
+                <div class="trans tranfer-from">
                     <div class="tranfer-label">From</div>
-                    <div >
+
+                    <div class="tranfer-content">
                         <input type="text" pattern="^[0-9]*[.,]?[0-9]*$" placeholder="0.0" minlength="1" maxlength="79"
-                            spellcheck="false">
+                            spellcheck="false"/>
+                        
+                        <div class="tranfer-selector">
+                            <img src="images/astr.jpg" alt="">
+                            ASTR
+                            <span><i class="fa-solid fa-angle-down"></i></span>
+                        </div>
                     </div>
                 </div>
-                <div class="tranfer-icon">
-                    <div>Hello</div>
-                </div>
-                <div class="tranfer-to">
-                    <div class="tranfer-label">From</div>
-                    <div>
-                        <input inputmode="decimal" autocomplete="off" autocorrect="off" type="text" pattern="^[0-9]*[.,]?[0-9]*$" placeholder="0.0" minlength="1" maxlength="79"
-                            spellcheck="false">
+                <!-- Tranfer - Icon -->
+                <span class="tranfer-icon">
+                    <div><i class="fa-solid fa-arrow-down fa-lg"></i></div>
+                </span>
+
+                <!-- Tranfer to -->
+                <div class="trans tranfer-to">
+                    <div class="tranfer-label">To</div>
+                    <div class="tranfer-content">
+                        <input type="text" pattern="^[0-9]*[.,]?[0-9]*$" placeholder="0.0" minlength="1" maxlength="79"
+                            spellcheck="false"/>
+                        
+                        <div class="tranfer-selector">
+                            Select a currency
+                            <span><i class="fa-solid fa-angle-down"></i></span>
+                        </div>
                     </div>
                 </div>
-                <button></button>
+                <hr style="height: 5px;">
+                <button class="btn btn-primary">Unlock Wallet</button>
             </div>
         </div>
     </div>
